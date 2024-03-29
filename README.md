@@ -28,4 +28,3 @@ Once the application is running, users can interact with it through the provided
 
 
 **Note**: This project is still in development and may undergo significant changes. Your feedback is highly appreciated.
-```
