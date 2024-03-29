@@ -1,4 +1,4 @@
-### Homework Helper
+## Homework Buddy
 
 This project is a work in progress and is continually updated to enhance its functionality and usability.
 
