@@ -1,0 +1,143 @@
+/* Import custom font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+  overflow: hidden;
+}
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url('/Users/srinjoydutta/Desktop/Zero-Shot-QA-Chatbot/chatbot-frontend/src/assets/background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 800px;
+  height: 90vh;
+  background-color: rgba(45, 49, 56, 0.9); /* Adding transparency */
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.chat-title {
+  padding: 1rem;
+  background-color: rgba(74, 85, 104, 0.9);
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.message-list {
+  flex: 1;
+  padding: 1rem;
+  overflow-y: auto;
+}
+
+.messages {
+  display: flex;
+  flex-direction: column;
+}
+
+.message {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.user-message .message-content {
+  align-self: flex-end;
+  background-color: rgba(49, 130, 206, 0.85);
+  color: white;
+}
+
+.assistant-message .message-content {
+  align-self: flex-start;
+  background-color: rgba(226, 232, 240, 0.85);
+  color: black;
+}
+
+.message-content {
+  padding: 0.5rem 1rem;
+  border-radius: 15px;
+  max-width: 70%;
+}
+
+.message-timestamp {
+  font-size: 0.75rem;
+  color: #a0aec0;
+  margin-top: 0.25rem;
+  text-align: right;
+}
+
+.input-container {
+  display: flex;
+  padding: 1rem;
+  background-color: rgba(74, 85, 104, 0.9);
+}
+
+.message-input {
+  flex: 1;
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: none;
+  margin-right: 1rem;
+}
+
+.send-button {
+  padding: 0.5rem 1rem;
+  background-color: #3182ce;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.send-button:disabled {
+  background-color: #bfcbd8;
+}
+
+.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.spinner {
+  margin-right: 0.5rem;
+}
+
+.new-session-button {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #e53e3e;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
