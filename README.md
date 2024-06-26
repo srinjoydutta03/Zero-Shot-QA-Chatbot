@@ -133,6 +133,6 @@ The architecture of the Zero-Shot-QA Chatbot includes the following components:
 
 ## Screenshots
 
-- ![Chat Interface](https://github.com/srinjoydutta03/Zero-Shot-QA-Chatbot/screenshots/landing_page.png)
-- ![Loading Screen](https://github.com/srinjoydutta03/Zero-Shot-QA-Chatbot/screenshots/loading_page.png)
-- ![Conversation History](https://github.com/srinjoydutta03/Zero-Shot-QA-Chatbot/screenshots/answers.png)
+- ![Chat Interface](https://github.com/srinjoydutta03/Zero-Shot-QA-Chatbot/blob/56ca9a769a3bd82b5a5d70cd6a0e53d3fd4aa9c0/screenshots/landing_page.png)
+- ![Loading Screen](https://github.com/srinjoydutta03/Zero-Shot-QA-Chatbot/blob/56ca9a769a3bd82b5a5d70cd6a0e53d3fd4aa9c0/screenshots/loading_page.png)
+- ![Conversation History](hhttps://github.com/srinjoydutta03/Zero-Shot-QA-Chatbot/blob/56ca9a769a3bd82b5a5d70cd6a0e53d3fd4aa9c0/screenshots/answers.png)
