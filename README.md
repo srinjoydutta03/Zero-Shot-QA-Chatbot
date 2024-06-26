@@ -10,7 +10,6 @@ Zero-Shot-QA Chatbot is an intelligent conversational agent designed to provide 
 - [Installation](#installation)
 - [Usage](#usage)
 - [API Endpoints](#api-endpoints)
-- [Frontend Interface](#frontend-interface)
 - [Screenshots](#screenshots)
 
 ## Features
