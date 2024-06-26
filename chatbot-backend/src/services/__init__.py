@@ -1,0 +1,1 @@
+from .vertex_ai import initialize_vertex_ai, create_index, deploy_index, get_index, get_index_endpoint
