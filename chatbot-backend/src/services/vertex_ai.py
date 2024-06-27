@@ -18,7 +18,7 @@ def get_index(index_id:str):
     return my_index
 
 def get_index_endpoint(index_endpoint_id:str):
-    my_index_endpoint = aiplatform.MatchingEngineIndexEndpoint("1234567890123456789")
+    my_index_endpoint = aiplatform.MatchingEngineIndexEndpoint(index_endpoint_id)
     return my_index_endpoint
 
 def deploy_index(index_name, endpoint_name):
