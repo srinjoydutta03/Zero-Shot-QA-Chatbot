@@ -85,7 +85,14 @@ def get_response(query):
         template = """Answer the question given the following contexts:
         {context}
         and
-        Imagine three different experts are answering this question. They will brainstorm the answer step by step reasoning carefully...
+        Imagine three different experts are answering this question. They will brainstorm the answer step by step reasoning carefully.
+        They will brainstorm the answer step by step reasoning carefully and taking all facts into consideration.
+        They will each critique their response, and the all the responses of others.
+        They will keep going through steps of their thoughts until they reach their conclusion taking into account the thoughts of the other experts.
+        If at any time they realise that there is a flaw in their logic they will backtrack to where that flaw occurred.
+        If any expert realises they're wrong at any point then they acknowledges this and start another train of thought
+        Continue until the experts agree on the single most likely location. 
+        And write the final right answer.
         Question: {question}
         """
         prompt = ChatPromptTemplate.from_template(template)
