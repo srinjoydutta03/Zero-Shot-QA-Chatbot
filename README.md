@@ -46,8 +46,8 @@ The architecture of the Zero-Shot-QA Chatbot includes the following components:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/zero-shot-qa-chatbot.git
-   cd zero-shot-qa-chatbot
+   git clone https://github.com/srinjoydutta03/Zero-Shot-QA-Chatbot.git
+   cd Zero-Shot-QA-Chatbot
    ```
 
 2. **Backend Setup:**
